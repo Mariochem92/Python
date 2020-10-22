@@ -1,4 +1,4 @@
-#This script is suitable to find 1D value ranges or intervals of a given variable. Also the min_span parameter acts like a filter in order to get rid of the smallest ranges, 
+#This script is suitable to find 1D intervals of a given variable value. Also the min_span parameter acts like a filter in order to get rid of the smallest ranges, 
 #which could be transitory or noise stemmed. Whereas the cutoff is enforced by a rcutoff parameter. Here we are looking for intervals where the variable is smaller
 #than 1.15. The file.dat is characterized by two columns: time and physical variable of interest (radius).
 import numpy as np
